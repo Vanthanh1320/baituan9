@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroud"
+    android:id="@+id/mhinh">
+
+    <ImageView
+        android:id="@+id/imagehinh"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="10dp"/>
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/tenbh"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/imagehinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên"/>
+
+    <TextView
+        android:id="@+id/motabh"
+        android:layout_below="@id/tenbh"
+        android:textSize="16dp"
+        android:textColor="#deecdd"
+        android:layout_toRightOf="@+id/imagehinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"/>
+</RelativeLayout>
